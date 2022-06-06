@@ -1,0 +1,90 @@
+*,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #f8f8ff;
+}
+
+h1 {
+  font-size: 60px;
+  color: grey;
+  margin-top: 20px;
+}
+
+input {
+  background-color: white;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.addButton {
+  padding: 10px;
+  width: 10%;
+  color: #555;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid grey;
+}
+
+.wrapper-container {
+  text-align: center;
+}
+
+.group-btn button {
+  border: 1px solid #808080;
+  color: grey;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+  position: relative;
+  left: 620px;
+  margin: 30px 0px 50px 0px;
+}
+
+.btn:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.btn:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+
+/* Clear floats (clearfix hack) */
+.group-btn:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.group-btn button:hover {
+  background-color: #808080;
+  color: white;
+}
+
+.removeButton {
+  display: inline-block;
+  position: relative;
+  left: 100px;
+}
+
+.checkButton {
+  width: 16px;
+  height: 16px;
+}
+.todoList li {
+  list-style-type: none;
+  background: white;
+}
+
+.todoList li.done {
+  text-decoration: line-through;
+}
+
+.todoList li.hidden {
+  display: none;
+}
